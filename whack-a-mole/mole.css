@@ -1,0 +1,71 @@
+ body{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 50px;
+background-color:#FFF4E1;
+color: black;
+font-family: Arial, sans-serif;
+}
+
+.counter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+  }
+
+
+.grid {
+	width: 618px;
+	height: 618px;
+	display: flex;
+	flex-wrap: wrap;
+	cursor: url(/whack-a-mole/sapiens.cur), auto;
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+	border: solid #FFCA3D 3px; 
+  background-color: #FFFEF3; 
+}
+
+.mole {
+	background-image: url("christian.jpg");
+	background-size: cover;
+}
+
+h2 {
+	margin-bottom: 10px;
+	margin: 0 10px;
+	font-size: 24px;
+	text-align: center;
+  }
+
+  .square:hover {
+	opacity: 0.7;
+  } 
+
+  .buttons {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+  }
+  
+  button {
+	background-color: #FFCA3D; 
+	color: #333333; 
+	border: none;
+	padding: 10px 20px;
+	margin: 0 10px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s;
+  }
+  
+  button:hover {
+	background-color: #FFD980; 
+  }
