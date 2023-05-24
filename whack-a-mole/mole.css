@@ -22,7 +22,6 @@ font-family: Arial, sans-serif;
 	height: 618px;
 	display: flex;
 	flex-wrap: wrap;
-	cursor: url(/whack-a-mole/sapiens.cur), auto;
 }
 
 .square {
@@ -33,7 +32,7 @@ font-family: Arial, sans-serif;
 }
 
 .mole {
-	background-image: url("christian.jpg");
+	background-image: url("mole.webp");
 	background-size: cover;
 }
 
@@ -68,4 +67,9 @@ h2 {
   
   button:hover {
 	background-color: #FFD980; 
+  }
+
+  a{
+    text-decoration: none;
+    color: inherit;
   }
