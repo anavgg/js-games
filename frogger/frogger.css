@@ -1,0 +1,65 @@
+body{
+ padding: 0;
+ margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: green;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.grid {
+    border: 1px solid black;
+    height: 360px;
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+}
+
+.ending-block {
+    background-color: red;
+}
+
+.starting-block {
+    background-color: blue;
+}
+.l1, .l2, .l3 {
+    background-image: url(/img/land.jpg);
+    background-color: brown;
+    background-size: cover;
+}
+
+.l4, .l5 {
+    background-image: url(/img/water.jpg);
+    background-color: lightblue;
+}
+
+.c1 {
+    background-image: url(/img/car.png);
+    background-color: lightgrey;
+    background-size: cover;
+}
+
+.c2, .c3 {
+    background-color: lightgrey;
+}
+
+.frog {
+    background-image: url(/img/frog.jpg);
+    background-color: transparent;
+    background-size: cover;
+}
+

@@ -1,0 +1,99 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #000;
+    color: #8000ff;
+  }
+
+  h1{
+    color: #8000ff;
+    text-shadow: 0 0 5px #8000ff;
+  }
+
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+
+  
+  .grid {
+    width: 300px;
+    height: 300px;
+    border: solid purple 2px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grid div {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .invader {
+    background-image: url(/img/space_invader.png);
+    background-color: transparent;
+    background-size: cover;
+  }
+  
+  .shooter {
+    background-image: url(/img/shooter.png);
+    background-color: transparent;
+    background-size: cover;
+  }
+  
+  .laser {
+    background-image: url(/img/laser.webp);
+    background-color: transparent;
+    background-size: cover;
+  }
+  
+  .boom {
+    background-color:#22cc00;
+    animation: boomAnimation 0.2s linear infinite;
+  }
+  
+  @keyframes boomAnimation {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+   .buttons{
+    margin-top: 1rem;
+   }
+
+  .invader-button {
+    background-color: transparent;
+    margin-top: 2rem;
+    border: solid #a020f0 2px;
+    color: #a020f0;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family:'Press Start 2P', cursive;
+    margin: 0 10px;
+    z-index: 1;
+  }
+  
+  .invader-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #a020f0;
+  }
+  
