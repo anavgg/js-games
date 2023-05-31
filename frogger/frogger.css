@@ -93,6 +93,6 @@ a{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   }
   
-  .start-pause-button:hover {
+  .buttons button:hover {
     background-color: lightgreen;
   }
