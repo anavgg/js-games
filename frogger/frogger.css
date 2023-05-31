@@ -78,3 +78,21 @@ a{
    flex-direction: row;
 }
  
+
+.buttons button {
+    background-color: lightgreen;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .start-pause-button:hover {
+    background-color: lightgreen;
+  }
