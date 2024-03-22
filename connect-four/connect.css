@@ -4,8 +4,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: radial-gradient(circle, #ff6600, #4a0649);
-    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, #a0a0ff, #4a0649);
+    background-image: url(/img/background_sky.png);
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
     color: white;
   }
   
@@ -14,52 +16,57 @@ body {
 	justify-content: center;
 	align-items: center;
     flex-direction: column;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .grid {
    display: flex;
    flex-wrap: wrap;
    border: 1px solid;
-   height: 120px;
-   width: 140px;
-   border: 5px solid #4a0649;
+   height: 240px;
+   width: 280px;
+   border: 5px solid #8a8af0;
    border-radius: 10px;
    margin-bottom: 20px;
-   background-color: #fff;
+   background-color: #97a9f3;
    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 
   }
   
   .grid div {
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
   }
   
   .player-one {
-    background-color: #4a0649;
+    background-image: url(/img/mushroom.png);
+    background-size: cover;
     border-radius: 10px;
   }
   
   .player-two {
-    background-color: #ff6600;
+    background-image: url(/img/mushroom_2.png);
+    background-size: cover;
     border-radius: 10px;
   }
 
   button {
-	background-color:#4a0649; 
-	color: white; 
-	border: none;
-    border-radius: 10%;
-	padding: 10px 20px;
-	margin: 0 10px;
-	font-size: 16px;
-	font-weight: bold;
-	cursor: pointer;
-	transition: background-color 0.3s;
+    background-color: #8a8af0 ;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    margin-bottom: 2em;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   }
   
-  button:hover {
-	background-color:#1e0621; 
+  .button:hover {
+    background-color: lightgreen;
   }
 
   a{
@@ -71,18 +78,18 @@ body {
   
   @media (max-width: 480px) {
     .grid {
-      height: 220px;
-      width: 240px;
+      height: 110px;
+      width: 120px;
     }
   
     .grid div {
-      height: 40px;
-      width: 40px;
+      height: 20px;
+      width: 20px;
       margin: 3px;
     }
   
     .result {
-      font-size: 18px;
+      font-size: 12px;
     }
   }
   
